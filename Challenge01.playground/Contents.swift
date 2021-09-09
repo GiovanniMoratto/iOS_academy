@@ -10,8 +10,8 @@ func uniqueLettersInput(input: String) -> Bool{
     return Set (input).count == input.count
 }
 
-let lettersTestOk = "abcdefg"
-let lettersTestFail = "aaaaaa"
+let lettersTestOk: String = "abcdefg"
+let lettersTestFail: String = "aaaaaa"
 
 assert(uniqueLetters(letters: lettersTestOk) == true, "Function failed")
 assert(uniqueLetters(letters: lettersTestFail) == false, "Function failed")

@@ -1,18 +1,17 @@
 import UIKit
 
 // Challenge 01
-let lettersTestOk = "abcdefg"
-let lettersTestFail = "aaaaaa"
-
-print(uniqueLetters(letters: lettersTestOk))
-print(uniqueLetters(letters: lettersTestFail))
+let challenge01: String = "abcdefg"
+print(uniqueLetters(letters: challenge01))
 
 // Challenge 02
-let numbersTest = [3, 50, 35, 5, 2, 5, 88]
-
-print(smallestNumber(numbers: numbersTest))
+let challenge02: [Int] = [3, 50, 35, 5, 2, 5, 88]
+print(smallestNumber(numbers: challenge02))
 
 // Challenge 03
-let doublesTest = [3.50, 50.15, 35.20, 5.45, 2.11, 5.45, 88.77]
+let challenge03: [Double] = [3.50, 50.15, 35.20, 5.45, 2.11, 5.45, 88.77]
+print(average(numbers: challenge03))
 
-print(average(numbers: doublesTest))
+// Challenge 04
+let challenge04: [Float] = [50, 1000.50, 10, 5.5]
+print(greatestNumbers(numbers: challenge04))
