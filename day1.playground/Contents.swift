@@ -19,3 +19,8 @@ print(greatestNumbers(numbers: challenge04))
 // Challenge 05
 let challenge05: String = "A long time ago, in a galaxy far, far away, an intergalactic war continues to rage between the evil Empire and the rebel alliance."
 print(separatedWords(string: challenge05))
+
+// Challenge 06s
+let challenge06: [String] = separatedWords(string: challenge05)
+print(startsWith(string: challenge06, character: "c"))
+
