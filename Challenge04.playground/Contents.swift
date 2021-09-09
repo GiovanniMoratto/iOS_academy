@@ -9,6 +9,6 @@ func greatestNumbers(numbers: [Float]) -> Float {
 let max: Float = 9999.99
 let numbersTest: [Float] = [50, max, 10, 5.5]
 
-assert(greatestNumbers(numbers: numbersTest) == max, "Function failed")
+assert(greatestNumbers(numbers: numbersTest) == max, "Function Failed")
 
 print(greatestNumbers(numbers: numbersTest))

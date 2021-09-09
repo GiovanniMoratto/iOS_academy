@@ -15,3 +15,7 @@ print(average(numbers: challenge03))
 // Challenge 04
 let challenge04: [Float] = [50, 1000.50, 10, 5.5]
 print(greatestNumbers(numbers: challenge04))
+
+// Challenge 05
+let challenge05: String = "A long time ago, in a galaxy far, far away, an intergalactic war continues to rage between the evil Empire and the rebel alliance."
+print(separatedWords(string: challenge05))

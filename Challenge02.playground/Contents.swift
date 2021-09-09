@@ -9,7 +9,7 @@ func smallestNumber(numbers: [Int]) -> Int {
 let min = 2
 let numbersTest: [Int] = [99, 500, 350, 500, min, 599, 880]
 
-assert(smallestNumber(numbers: numbersTest) == min, "Function failed")
+assert(smallestNumber(numbers: numbersTest) == min, "Function Failed")
 
 print(smallestNumber(numbers: numbersTest))
 
