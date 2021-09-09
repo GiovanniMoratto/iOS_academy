@@ -1,5 +1,7 @@
 import UIKit
 
+// Write a function that returns true if all letters are different in a given string
+
 let lettersTestOk = "abcdefg"
 let lettersTestFail = "aaaaaa"
 
