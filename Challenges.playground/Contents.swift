@@ -20,7 +20,12 @@ print(greatestNumbers(numbers: challenge04))
 let challenge05: String = "A long time ago, in a galaxy far, far away, an intergalactic war continues to rage between the evil Empire and the rebel alliance."
 print(separatedWords(string: challenge05))
 
-// Challenge 06s
+// Challenge 06
 let challenge06: [String] = separatedWords(string: challenge05)
 print(startsWith(string: challenge06, character: "c"))
 
+// Challenge 07
+let numb1: Double = 2.0
+let numb2: Double = 2.0
+let op: Operations = .SUM
+print(calculator(number1: numb1, operator: op, number2: numb2))
