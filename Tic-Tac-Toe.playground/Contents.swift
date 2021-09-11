@@ -5,7 +5,7 @@ import UIKit
 func makeList() -> [[String]] {
     var array: [[String]] = []
     for i in 0..<3{
-        array.append(contentsOf: [])
+        array.append([])
         for _ in 0..<3{
             array[i].append(" ")
         }

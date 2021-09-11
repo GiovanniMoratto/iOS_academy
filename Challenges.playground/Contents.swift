@@ -29,3 +29,8 @@ let numb1: Double = 2.0
 let numb2: Double = 2.0
 let op: Operations = .SUM
 print(calculator(number1: numb1, operator: op, number2: numb2))
+
+// Challenge 08
+let board: [[String]] = [["O", "X", " "], ["O", "O", "O"], ["X", " ", "X"]]
+let simbol: String = "O"
+print(checkVictory(list: board, simbol: simbol))
