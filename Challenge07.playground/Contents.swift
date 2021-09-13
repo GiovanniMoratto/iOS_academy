@@ -1,6 +1,6 @@
 import UIKit
 
-// Write a function that performs a given arithmetic operation in a given pair of doubles
+/* 7. Write a function that performs a given arithmetic operation in a given pair of doubles */
 
 enum Operations {
     case SUM
@@ -20,7 +20,7 @@ func calculator(number1: Double, operator: Operations, number2: Double) -> Doubl
     case .MULTI:
         return number1 * number2
     case .DIV:
-        if number2 != 0.0 {
+        if number2 != .zero {
             return number1 / number2
         } else {
             print("Error: Can't divide by zero.")
@@ -46,9 +46,9 @@ assert(calculator(number1: testNumber1, operator: Operations.SQRT, number2: test
 assert(calculator(number1: testNumber1, operator: Operations.EXPO, number2: testNumber2Error) == pow(testNumber1, testNumber2Error), "Function Failed")
 
 
-print(calculator(number1: testNumber1, operator: Operations.SUM, number2: testNumber2))
-print(calculator(number1: testNumber1, operator: Operations.SUB, number2: testNumber2))
-print(calculator(number1: testNumber1, operator: Operations.MULTI, number2: testNumber2))
-print(calculator(number1: testNumber1, operator: Operations.DIV, number2: testNumber2))
-print(calculator(number1: testNumber1, operator: Operations.SQRT, number2: testNumber2))
-print(calculator(number1: testNumber1, operator: Operations.EXPO, number2: testNumber2))
+//print(calculator(number1: testNumber1, operator: Operations.SUM, number2: testNumber2))
+//print(calculator(number1: testNumber1, operator: Operations.SUB, number2: testNumber2))
+//print(calculator(number1: testNumber1, operator: Operations.MULTI, number2: testNumber2))
+//print(calculator(number1: testNumber1, operator: Operations.DIV, number2: testNumber2))
+//print(calculator(number1: testNumber1, operator: Operations.SQRT, number2: testNumber2))
+//print(calculator(number1: testNumber1, operator: Operations.EXPO, number2: testNumber2))

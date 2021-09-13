@@ -10,7 +10,7 @@ public func checkVictory(list: [[String]], simbol: String) -> Bool {
         }
     }
     
-    for i in 0..<3{
+    for i in 0...2{
         if list[0][i] == simbol && list[1][i] == simbol && list[2][i] == simbol{
             return true
         }

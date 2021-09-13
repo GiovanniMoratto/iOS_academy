@@ -20,7 +20,7 @@ public func calculator(number1: Double, operator: Operations, number2: Double) -
     case .MULTI:
         return number1 * number2
     case .DIV:
-        if number2 != 0.0 {
+        if number2 != .zero {
             return number1 / number2
         } else {
             print("Error: Can't divide by zero.")
